@@ -13,7 +13,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '83021f1f-5f1d-42ae-a9a0-44c39e07c842'
-  imageRepository: 'uvicsenghelloworld${trigger}'
+  imageRepository: 'uvicsenghelloworld'
   containerRegistry: 'uvichello.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
